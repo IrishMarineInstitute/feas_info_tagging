@@ -11,7 +11,6 @@ RUN sudo chown -R shiny:shiny /var/lib/shiny-server/
 #COPY shiny-server.conf /etc/shiny-server/shiny-server.conf
 COPY Data /srv/shiny-server/tagging/Data
 COPY www /srv/shiny-server/tagging/www
-COPY .Rhistory /srv/shiny-server/tagging/
 COPY app.R /srv/shiny-server/tagging/
 COPY google-analytics.js /srv/shiny-server/tagging/
 COPY README.md /srv/shiny-server/tagging/
