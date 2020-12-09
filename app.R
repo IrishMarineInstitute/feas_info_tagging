@@ -1,7 +1,7 @@
 # load necessary packages
 library(shiny)
 library(leaflet)
-library(mapview)
+
 library(dplyr)
 library(plotly)
 library(htmlwidgets)
@@ -9,6 +9,7 @@ library(DT)
 library(lubridate)
 library(shinyWidgets)
 library(readr)
+library(mapview)
 
 tag<-read_rds("Data/tag.rds")
 lf<-read_rds("Data/lf.rds")
