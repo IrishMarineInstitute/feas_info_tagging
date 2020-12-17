@@ -9,7 +9,7 @@ library(DT)
 library(lubridate)
 library(shinyWidgets)
 library(readr)
-#library(mapview)
+library(mapview)
 
 tag<-read_rds("Data/tag.rds")
 lf<-read_rds("Data/lf.rds")
